@@ -7,6 +7,7 @@ import {
 } from "@jsenv/file-size-impact";
 
 reportFileSizeImpact({
+  logLevel: 'debug',
   ...readGithubWorkflowEnv(),
 
   trackingConfig: {
