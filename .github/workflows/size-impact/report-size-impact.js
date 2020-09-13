@@ -12,8 +12,8 @@ reportFileSizeImpact({
 
   trackingConfig: {
     browser: {
-      "./dist/*/*.js": false,
-      "./dist/*/*.min.js": true,
+      "./dist/*.js": false,
+      "./dist/*.min.js": true,
       "./dist/system-node.cjs": false,
     },
     node: {
